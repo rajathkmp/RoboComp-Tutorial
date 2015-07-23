@@ -1,0 +1,3 @@
+/home/rajath/robocomp/components/mycomponents/myfirstcomp/CMakeFiles/doc.dir
+/home/rajath/robocomp/components/mycomponents/myfirstcomp/src/CMakeFiles/firstcomp.dir
+/home/rajath/robocomp/components/mycomponents/myfirstcomp/CMakeFiles/installdoc.dir
