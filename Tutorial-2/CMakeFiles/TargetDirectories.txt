@@ -1,0 +1,3 @@
+/home/rajath/robocomp/components/mycomponents/robcomptut/Tutorial-2/CMakeFiles/doc.dir
+/home/rajath/robocomp/components/mycomponents/robcomptut/Tutorial-2/CMakeFiles/installdoc.dir
+/home/rajath/robocomp/components/mycomponents/robcomptut/Tutorial-2/src/CMakeFiles/secondcomp.dir
