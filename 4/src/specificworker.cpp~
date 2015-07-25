@@ -37,6 +37,10 @@ SpecificWorker::~SpecificWorker()
 void SpecificWorker::compute( )
 {
 
+    const float threshold = 200;
+    float rot = 1.5707;	
+	
+    
 
     try
     {
@@ -44,18 +48,43 @@ void SpecificWorker::compute( )
         std::sort( ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b){ return     a.dist < b.dist; }) ;
         
 	
-	differentialrobot_proxy->setSpeedBase(500, 0); 
-  	usleep(1500000);
+	 if( ldata.front().dist < threshold)
+	{
+ 	differentialrobot_proxy->setSpeedBase(5, -rot);
+	usleep(1250000);
+	std::cout << ldata.front().dist << std::endl;	
+	differentialrobot_proxy->setSpeedBase(200, 0);
+	usleep(500000);
+	rot = rot + 0.12;
+	if( rot > 3 * 1.5707 )
+	{
+	 rot = 1.5707;
+	}
+	}
+	
+	else
+	{
+	differentialrobot_proxy->setSpeedBase(200, 0); 
+  	usleep(500000);
 	std::cout << ldata.front().dist << std::endl;
-  	differentialrobot_proxy->setSpeedBase(10, 1.5707);  
-  	usleep(1000000);
-	std::cout << ldata.front().dist << std::endl;
+  	}
+
        	
     }
     catch(const Ice::Exception &ex)
     {
         std::cout << ex << std::endl;
     }
+
+
+
+
+
+
+
+
+
+
 
 
 

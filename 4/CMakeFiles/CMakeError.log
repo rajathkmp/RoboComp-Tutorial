@@ -1,0 +1,96 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2974292313/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2974292313.dir/build.make CMakeFiles/cmTryCompileExec2974292313.dir/build
+make[1]: Entering directory `/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2974292313.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2974292313.dir/CheckSymbolExists.cxx.o -c /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2974292313.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2974292313/fast] Error 2
+
+File /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec843151004/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec843151004.dir/build.make CMakeFiles/cmTryCompileExec843151004.dir/build
+make[1]: Entering directory `/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec843151004.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec843151004.dir/CheckSymbolExists.cxx.o -c /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec843151004.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec843151004/fast] Error 2
+
+File /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2697327075/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2697327075.dir/build.make CMakeFiles/cmTryCompileExec2697327075.dir/build
+make[1]: Entering directory `/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2697327075.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2697327075.dir/CheckSymbolExists.cxx.o -c /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2697327075.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2697327075/fast] Error 2
+
+File /home/rajath/robocomp/components/mycomponents/robcomptut/4/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
