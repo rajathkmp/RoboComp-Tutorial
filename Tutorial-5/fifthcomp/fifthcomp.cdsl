@@ -1,0 +1,9 @@
+import "/robocomp/interfaces/IDSLs/Laser.idsl";
+import "/robocomp/interfaces/IDSLs/DifferentialRobot.idsl";
+Component fifthcomp{
+	Communications{
+		requires DifferentialRobot, Laser;
+
+	};
+	language Cpp;
+};
